@@ -1,0 +1,78 @@
+server creating
+==================
+nodejs+express
+
+basic command--->
+==================
+1)npm init -for creating package.json
+2)npm i express-for installing express and creation of node modules
+3)instal mongoose - npm i  mongoose
+
+basic steps
+===================
+1)create a folder for server,
+2)create package.json
+3)create nodemodules or install express
+4)create index.js
+5)impost express in index.js file
+6)create an application using express
+6)set port number
+7)resolve http requests
+        get-get the data
+        post -post the data
+        put-update data partially
+        patch-update data completely
+        delete-delete the data completely
+
+10)jwt token
+===================
+        install jwt token - npm i jsonwebtoken
+        to generate a token - sign()
+
+
+11)status code
+===================
+1xx - information
+2xx - successful
+3xx - redirection
+4xx - client erroe
+5xx - server error
+
+12)Middleware
+=======================
+It comes in the middle of the request and response cycle of nodejs execution process.
+        i)  application specific middleware - req,res, next - middleware for entire application
+        ii) router specific middleware - middleware for specific router - to validate token - we use  verify() in jsonwebtoken
+
+12)database integration
+================================
+        i)instal mongoose - npm i mongoose connection btw mongodb and server
+        ii)import mongose
+        iii)connection link
+        iiii)creatin db model
+
+
+13>asynchronous function resolving - promise
+=====================================================
+        i)resolve state - .then()
+        ii)reject state - catch()
+        
+
+14)cors-cross  origin resource sharing 
+=========================================
+===>communication btw frontend and server
+        - intall  => npm i cors
+
+        port 4200(angular)----request--->port 3000(node)req received
+
+14)backend
+=========
+ asynchronous call -RxJs - Reactive extension for javascript
+        1) observable
+        1a)resolved - subscribe()
+        1b)reject - catch()
+        
+
+js-promise
+ts-RxJs(library)
+
